@@ -1,0 +1,146 @@
+# =============================================================================
+# MethotX Workforce - Production Root .gitignore
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 🔐 1. SECRETS, CREDENTIALS & SENSITIVE KEYS (DO NOT COMMIT!)
+# -----------------------------------------------------------------------------
+# Android Signing Keys & Credentials
+key.properties
+**/key.properties
+local.properties
+**/local.properties
+*.jks
+**/*.jks
+*.keystore
+**/*.keystore
+*.p12
+*.p8
+*.key
+*.pem
+*.der
+*.pk8
+upload-keystore.jks
+**/upload-keystore.jks
+
+# Environment & Private Config Files
+.env
+.env.*
+*.env
+.envrc
+secrets.json
+secrets.yaml
+credentials.json
+client_secret*.json
+api_keys.*
+service_account*.json
+*firebase-adminsdk*.json
+
+# Apple / iOS Certificates & Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.certSigningRequest
+AuthKey_*.p8
+
+# -----------------------------------------------------------------------------
+# ⚡ 2. FLUTTER & DART COMPILED ARTIFACTS
+# -----------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+/build/
+**/build/
+/coverage/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+migrate_working_dir/
+
+# Generated Plugin Registrants
+GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.h
+**/GeneratedPluginRegistrant.m
+
+# -----------------------------------------------------------------------------
+# 🤖 3. ANDROID NATIVE BUILD ARTIFACTS
+# -----------------------------------------------------------------------------
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+.cxx/
+**/.cxx/
+captures/
+**/captures/
+gradle-wrapper.jar
+**/gradle-wrapper.jar
+
+# Binaries & Bundles
+*.apk
+*.aab
+*.ap_
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# -----------------------------------------------------------------------------
+# 🍎 4. IOS & MACOS NATIVE ARTIFACTS
+# -----------------------------------------------------------------------------
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/.symlinks/
+*.ipa
+*.xcarchive/
+*.dSYM.zip
+*.dSYM
+
+# -----------------------------------------------------------------------------
+# 💻 5. IDE, EDITORS & SYSTEM TEMPORARY FILES
+# -----------------------------------------------------------------------------
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Linux
+*~
+
+# JetBrains / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs & Temporary Files
+*.log
+*.class
+*.pyc
+*.swp
+*.swo
+.history/
+.atom/
+.buildlog/
+.swiftpm/

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946433196100",
+    "project_id": "methotx-workforce",
+    "storage_bucket": "methotx-workforce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946433196100:android:746872449d624acb3d3c11",
+        "android_client_info": {
+          "package_name": "com.clickngotech.methotx_workforce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe3ZejyN-8ciy8W0iZtkIaDwbHHZzmG-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
